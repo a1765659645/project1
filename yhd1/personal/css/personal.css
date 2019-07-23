@@ -1,0 +1,335 @@
+.w {
+	width: 1228px;
+	margin: 0 auto;
+}
+.logo-box {
+	font-size: 0;
+}
+.logo {
+	display: inline-block;
+	float: left;
+}
+.logo>img {
+	width: 205px;
+	height: 110px;
+}
+.search-box {
+	display: inline-block;
+	padding: 32px 0 0 35px;
+}
+.search>input {
+	width: 700px;
+	height: 36px;
+	outline: none;
+	border: 2px solid #ff4040;
+	vertical-align: top;
+	text-indent: 1em;
+}
+.search>button {
+	width: 50px;
+	height: 40px;
+	outline: none;
+	background-color: #ff4040;
+	border: none;
+}
+.search>button>i {
+	font-size: 26px;
+	color: #fff;
+	font-weight: 700;
+}
+.search-box>ul {
+	font-size: 0;
+}
+.search-box>ul>li {
+	font-size: 14px;
+	color: rgb(170,170,170);
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.search-box>ul>li:hover {
+	color: #ff4040;
+}
+.cart {
+	display: block;
+	float: right;
+	width: 130px;
+	height: 20px;
+	border: 1px solid rgb(215,215,215);
+	padding: 9px 0;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 60px;
+	color: rgb(102,102,102);
+}
+.menu-box {
+	width: 100%;
+	border-bottom: 3px solid #ff4040;
+	font-size: 0;
+}
+.menu-box>.w>div {
+	position: relative;
+	display: inline-block;
+}
+.menu-box>.w>div>ul {
+	position: absolute;
+	display: none;
+	bottom: -387px;
+	background-color: rgba(51,51,51,0.8);
+	cursor: pointer;
+}
+.menu-box>.w>div>ul>li>i {
+	color: #8f8f8f;
+	display: inline-block;
+	margin: 0 10px;
+}
+.menu-box>.w>div>ul {
+	font-size: 0;
+	width: 210px;
+}
+.menu-box>.w>div>ul>li {
+	font-size: 12px;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	text-align: left;
+}
+.menu-box>.w>div>ul>li>span {
+	color: #fff;
+}
+.menu-sub {
+	z-index: 1000;
+}
+.all {
+	text-align: center;
+	display: block;
+	width: 210px;
+	height: 40px;
+	background-color: #ff4040;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 40px;
+}
+.menu-box>.w>ul {
+	display: inline-block;
+	padding-left: 20px;
+}
+.menu-box>.w>ul>li {
+	display: inline-block;
+	font-size: 16px;
+	margin: 0 15px;
+}
+.content-box {
+	width: 100%;
+	background-color: #e9e9e9;
+	padding: 22px 0 100px;
+}
+.left {
+	float: left;
+	width: 175px;
+	background-color: #fff;
+	padding-top: 18px;
+	padding-bottom: 24px;
+}
+.left>ul {
+	padding: 0 0 8px 52px;
+}
+.left>ul>li {
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	color: #999;
+	cursor: pointer;
+}
+.left>ul>li:hover {
+	color: #ff4040;
+}
+.left>ul>li.title {
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	text-align: left;
+	font-weight: 600;
+	color: #666;
+	cursor: text;
+}
+.title>i {
+	position: absolute;
+	left: -20px;
+	top: 1px;
+	color: #ff4040;
+}
+.right-box {
+	float: right;
+	width: 982px;
+	min-height: 200px;
+	background-color: #fff;
+	padding: 22px 30px 14px;
+}
+.right {
+	display: none;
+}
+/* 个人资料 */
+/* ---------right--------- */
+/* personal */
+.personal {
+	width: 495px;
+	float: left;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.nickname, .realname {margin-top: 30px;}
+.head-image, .nick-name, .real-name, span.sex, span.birty{
+	width: 67px;
+	text-align: right;
+	float: left;
+	color: #999;
+	font-size: 12px;
+	overflow: hidden;
+}
+.webuploader-pick {
+	width: 80px;
+	height: 20px;
+	vertical-align: top;
+	margin-left: 18px;
+}
+input {
+	margin-left: 18px;
+	width: 250px;
+	height: 30px;
+}
+.nickname>p {
+	color: #999999;
+	font-size: 12px;
+	margin-left: 90px;
+}
+div.sex {margin-top: 30px;}
+.boy, .girl {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin-left: 18px;
+	vertical-align: bottom;
+}
+/* binding */
+div.binding {
+	width: 225px;
+	float: right;
+	padding: 5px 200px 10px 10px;
+}
+.user-name, .telephone, p.emil, input.bind-email, input.immediate, .p.warn {margin-top: 10px;}
+.telephone>i, p.emil>i {
+	width: 16px;
+	height: 17px;
+	display: inline-block;
+}
+.telephone-border, .emil-border {
+	width: 1px;
+	height: 15px;
+	display: inline-block;
+	border-left: 1px dotted #b4b4b4;
+	margin: 0 2px;
+}
+.telephone-test, .emil-test {
+	color: #666;
+	font-size: 12px;
+}
+.telephone>a {
+	color: #f60;
+	font-size: 12px;
+}
+input.bind-email{
+	color: #BDBDBD;
+	border: 1px solid #999;
+	height: 22px;
+	line-height: 22px;
+	margin-right: 7px;
+	padding: 0 5px;
+	margin-left: 0;
+}
+input.immediate {
+	width: 67px;
+	height: 27px;
+	line-height: 27px;
+	border: 0 none;
+	cursor: pointer;
+	color: white;
+	background-color: #ff3c3c;
+	margin-left: 0;
+	font-size: 12px;
+}
+p.warn>span {color: #999; font-size: 12px;}
+p.warn>a {color: #06c; font-size: 12px;}
+/* -----bottom---- */
+.bottom {margin-top: 30px;}
+.birthday {margin-left: 67px;}
+select {
+	margin: 0 18px;
+	width: 90px;
+	height: 30px;
+	color: #333;
+	font-size: 12px;
+} 
+input.save {
+	width: 102px;
+	font-size: 14px;
+	color: white;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	border: 0;
+	margin-top: 50px;
+	margin-left: 92px;
+	background-color: #FF0000;
+}
+.right1 {
+	display: none;
+}
+.tab {
+	font-size: 0;
+}
+.tab>li {
+	display: inline-block;
+	font-size: 16px;
+	height: 14px;
+	line-height: 14px;
+	color: #333;
+	padding-right: 20px;
+	margin-left: 10px;
+	border-right: 1px solid #e9e9e9;
+	cursor: pointer;
+}
+.tab>li>a {
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid transparent;
+}
+.tab>li>a>span {
+	color: #ff4040;
+}
+.tab>li:hover {
+	color: #ff4040;
+}
+.tab>li:nth-child(5) {
+	border-right-width: 0;
+}
+.show {
+	display: block;
+}
+.tab>li>a.active {
+	border-bottom: 2px solid #ff4040 !important;
+}
+.tab-content {
+	font-size: 14px;
+}
+.tab-content>li{
+	display: none;
+}
+.tab-content>li.active {
+	display: block;
+}

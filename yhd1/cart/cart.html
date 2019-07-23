@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../static/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/iconfont.css" />
+		<link rel="stylesheet" href="../static/css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/cart.css" />
+		<title></title>
+	</head>
+	<body>
+		<div class='header'>
+			<div class='w'>
+				<div class='page'>
+					<i class='iconfont icon-home-copy'></i>
+					<span>1号店首页</span>
+				</div>
+				<div class='hint'>
+					<i class='iconfont icon-hint'></i>
+					<span>网警提示</span>
+				</div>
+				<div class='topbar'>
+					<ul>
+						<li class='global'>
+							<span>早上好，请</span>
+							<p class='login'>登录</p>
+							<p class='registration'>注册</p>
+						</li>
+						<li class='after-hello'>
+							<span>下午好，</span>
+							<p class='name'></p>
+							<p class='exit'>退出</p>
+						</li>
+						<li class='club'>
+							<i class='iconfont icon-members'></i>
+							<span>会员俱乐部</span>
+						</li>
+						<li class='order'>
+							<i class='iconfont icon-notepad'></i>
+							<span>我的订单</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="top">
+			<div class="cart-w clearfix">
+				<div class="search">
+					<input type="text" placeholder="请输入关键词">
+					<i class="iconfont icon-search"></i>
+				</div>
+				<ul class="left">
+					<li class="logo">
+						<a href="#"><img src="../static/img/cart/cart_logo.png" alt=""></a>
+						<a href="#"><img src="../static/img/cart/logo_txt.png" alt=""></a>
+					</li>
+					<li class="addr clearfix">
+						<span>配送至：</span>
+						<select id="cmbProvince" name="cmbProvince"></select>
+						<select id="cmbCity" name="cmbCity"></select>
+						<select id="cmbArea" name="cmbArea"></select>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<ul class="cart-w">
+			<li><input type="checkbox" class="all" checked />全选</li>
+			<li>商品信息</li>
+			<li>单价（元）</li>
+			<li>数量</li>
+			<li>小计（元）</li>
+			<li>操作</li>
+		</ul>
+		<table class="cart-w" style="background-color: #fff">
+			<tbody></tbody>
+		</table>
+		<div class="acount-wrapper">
+			<div class="cart-w clearfix">
+				<ul class="left">
+					<li>
+						<input type="checkbox" class="all" checked />全选(共<em class="total"></em>件)
+					</li>
+					<li>
+						<a href="#" class="clear">清除无效商品</a>
+					</li>
+					<li>
+						<a href="#" class="dels">批量删除</a>
+					</li>
+				</ul>
+				<ul class="right">
+					<li>
+						<span class="settlement">去结算</span>
+					</li>
+					<li>
+						<span class="total-acount">合计: ￥<em class="acount"></em>元</span>
+					</li>
+					<li>
+						<span class="checked">已选商品<em class="total"></em>件</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="cart-w banner-title">
+			<h4>
+				<i class="iconfont icon-like"></i>
+				<span>猜你喜欢</span>
+			</h4>
+			<p>实时推荐最适合您的商品</p>
+		</div>
+		<div class="cart-w banner">
+			<div class="banner-content"></div>
+			<ul class="banner-indicators">
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<span class="prev">
+				<i class="iconfont icon-left"></i>
+			</span>
+			<span class="next">
+				<i class="iconfont icon-right"></i>
+			</span>
+		</div>
+		<div class='footer'>
+			<div class='w footer-discount clearfix'>
+				<a href="#">
+					<img src="../static/img/header/f1.jpg" alt="">
+					<h4>正品保障</h4>
+					<span>正品行货 放心选购</span>
+				</a>
+				<a href="#">
+					<img src="../static/img/header/f2.jpg" alt="">
+					<h4>满86包邮</h4>
+					<span>满86元 免运费</span>
+				</a>
+				<a href="#">
+					<img src="../static/img/header/f3.jpg" alt="">
+					<h4>售后无忧</h4>
+					<span>7天无理由退货</span>
+				</a>
+				<a href="#">
+					<img src="../static/img/header/f4.jpg" alt="">
+					<h4>准时送达</h4>
+					<span>收货时间由你做主</span>
+				</a>
+			</div>
+			<div class='w footer-list clearfix'>
+				<div class='list-left'>
+					<dl>
+						<dt>新手入门</dt>
+						<dd>购物流程</dd>
+						<dd>会员制度</dd>
+						<dd>订单查询</dd>
+						<dd>服务协议及隐私说明</dd>
+						<dd>网站地图</dd>
+					</dl>
+					<dl>
+						<dt>支付方式</dt>
+						<dd>货到付款</dd>
+						<dd>网上支付</dd>
+						<dd>礼品卡支付</dd>
+						<dd>其他支付</dd>
+					</dl>
+					<dl>
+						<dt>配送服务</dt>
+						<dd>配送进度查询</dd>
+						<dd>商品验货与签收</dd>
+					</dl>
+					<dl>
+						<dt>售后保障</dt>
+						<dd>退换货政策</dd>
+						<dd>发票制度</dd>
+						<dd>帮助中心</dd>
+					</dl>
+				</div>
+				<div class='list-right'>
+					<a href="#">
+						<p>APP更优惠</p>
+						<img src="../static/img/header/f5.png" alt="">
+					</a>
+					<a href="#">
+						<p>加微信查订单</p>
+						<img src="../static/img/header/f6.jpg" alt="">
+					</a>
+				</div>
+			</div>
+			<div class='footer-contact'>
+				<div class='contact-link'>
+					<p>沪ICP备16050468号</p>
+					<p>经营证照</p>
+					<p>互联网药品信息服务资格证(沪)-经营性-2017-0006</p>
+					<p>违法和不良信息举报电话：0527-88100253</p>
+					<p>沪B2-20170039</p>
+					<p>沪公网安备 31010502002939号</p>
+					<p>友情链接</p>
+					<p>出版物经营许可证</p>
+					<p>增值电信业务经营许可证</p>
+				</div>
+				<p>Copyright© 1号店网上超市 2007-2019，All Rights Reserved</p>
+				<div class='contact-banner'>
+					<img src="../static/img/header/f9.jpg" alt="">
+					<img src="../static/img/header/f10.jpg" alt="">
+					<img src="../static/img/header/f11.jpg" alt="">
+					<img src="../static/img/header/f12.jpg" alt="">
+					<img src="../static/img/header/f13.png" alt="">
+					<img src="../static/img/header/f14.png" alt="">
+				</div>
+			</div>
+		</div>
+		<script src="../static/js/jQuery-3.4.0.js"></script>
+		<script src="../static/js/data.js"></script>
+		<script src='https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js'></script>
+		<script src="../static/js/header.js"></script>
+		<script src="../static/js/public.js"></script>
+		<script src="js/cart.js"></script>
+	</body>
+</html>

@@ -1,0 +1,155 @@
+body {
+	/* background-color:lavender; */
+	min-width: 1200px;
+}
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.top {
+	background-color:#fff;
+	border: 1px solid #e1e1e1;
+	height: 82px;
+}
+.header {  
+	
+}
+.header-left {
+	float: left;
+}
+.header-left>img {
+	margin-top: 20px;
+	height: 55px;
+}
+.header-right {
+	float: right;
+}
+.header-right>ul {
+	margin-top: 10px;
+}
+.header-right>ul>li {
+	display: inline-block;
+}
+.header-right>ul>li>p {
+	display: inline-block;
+	font-size: 12px;
+}
+.header-right>ul>li>a {
+	font-size: 12px;
+}
+.header-right>ul>li>a:hover {
+	color: red;
+}
+.header-right>ul>li>select {
+	border: none;
+}
+.header-right>ul>li>select>option {
+	font-size: 13px;
+}
+
+
+.content {
+	margin-top: 40px;
+	
+}
+.content-wrapper {}
+.content-image { 
+	width: 50%;
+	display: inline-block;
+}
+.login {
+	display: inline-block;
+	float: right;
+	width: 400px;
+	margin-right: 200px;
+	box-sizing: border-box;
+}
+.login>ul {
+	display: block;
+	padding: 0 5px;
+}
+.login>ul>li {
+	padding-top: 10px;;
+}
+.login>ul>li.first>span.left {
+	display: inline-block;
+	padding-right: 180px;
+}
+.login>ul>li.second>span {
+	display: block;
+	background-color: #fff;
+	border: 1px solid gainsboro;
+}
+.login>ul>li.second>span>input {
+	height: 54px;
+	width: 330px;
+	border: 0 none;
+	outline: none;
+	padding-left: 10px;
+}
+.login>ul>li.second>span>i {
+	font-size: 28px;
+	padding-left: 10px;
+}
+.login>ul>li.third>span {
+	display: block;
+	background-color: #fff;
+	border: 1px solid gainsboro;
+}
+.login>ul>li.third>span>input {
+	height: 54px;
+	width: 330px;
+	border: 0 none;
+	outline: none;
+	padding-left: 10px;
+}
+.login>ul>li.third>span>i {
+	font-size: 28px;
+	padding-left: 10px;
+}
+.login>ul>li.fourth {}
+.login>ul>li.fourth>span.sleft {
+	padding-right: 220px;
+}
+.login>ul>li.fifth>input.submit {
+	width: 390px;
+	height: 52px;
+	background-color: #ff3c3c;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	outline: none;
+}
+.login>ul>li.sixth>p {
+	font-size: 12px;
+	color: #666666;
+}
+.login>ul>li.seventh>i {
+	padding: 0 10px;
+}
+.login>ul>li.seventh>i.icon-qq {
+	font-size: 32px;
+	color: #10a8ff;
+}
+.login>ul>li.seventh>i.icon-jingdong- {
+	font-size: 32px;
+	color: #c81825;
+}
+.login>ul>li.seventh>i.icon-ic_wechat {
+	font-size: 32px;
+	color: #00cc00;
+}
+.login>ul>li.seventh>i.icon-weibo {
+	font-size: 32px;
+	color: #dd2e37;
+}
+.login>ul>li.seventh {
+	box-sizing: border-box;
+}
+.login>ul>li.seventh>p {
+	display: inline-block;
+	font-size: 12px;
+	color: #999999;
+	padding-left: 70px;
+	padding-bottom: 20px;
+}
